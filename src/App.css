@@ -1,0 +1,160 @@
+
+.header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.head-but{
+  margin-top: 20px !important;
+  margin-right: 90px !important;
+}
+
+.container{
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Card */
+.card{
+  background-color: #e8e8e8;
+  margin-bottom: 20px;
+  border-radius: 20px ;
+  padding: 20px 30px;
+}
+
+
+/* Blog */
+
+.blog-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e8e8e8;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
+/* new blog */
+.new-form input[type=text] ,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.new-form input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new-form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.new-container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 40px 60px;
+  width: 70%;
+  margin: auto;
+}
+
+
+/* CSS - read more*/
+.button-3 {
+  appearance: none;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-read{
+    background-color: #2ea44f;
+  }
+  
+  .button-like {
+    background-color: #405CF5;
+    width: 100px ;
+}
+
+.button-edit {
+  background-color: #0f9824;
+  width: 100px;
+}
+
+.button-del {
+  background-color: #F34234;
+  width: 100px;
+}
+
+.btn-grp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+/* button - new blog*/
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #7209b7;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
